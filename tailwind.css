@@ -1,0 +1,31 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css';
+
+/* Custom Tailwind CSS for dark, clean and simple personal website */
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.container {
+  @apply mx-auto max-w-screen-md;
+}
+
+.header {
+  @apply text-3xl font-bold py-4;
+}
+
+.section {
+  @apply my-8;
+}
+
+.section-title {
+  @apply text-2xl font-semibold mb-4;
+}
+
+.section-content {
+  @apply text-lg;
+}
+
+.footer {
+  @apply text-center py-4;
+}
